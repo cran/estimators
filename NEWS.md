@@ -1,3 +1,23 @@
+# estimators 0.8.5
+
+* Removed the "v function works" Dirichlet test that failed on MKL until the reason of failure becomes clear.
+
+# estimators 0.8.3
+
+* Updated missing return value in calculus.Rd documentation.
+* Changed default plot save path to `NULL`.
+* Changed `q2` function to `qn`.
+
+# estimators 0.8.2
+
+* Updated missing return values in documentation.
+
+# estimators 0.8.1
+
+* Added support for S4 Distribution classes, therefore the distr package is no longer a dependency (nor is it imported).
+* Added moment functions for all distributions.
+* Added new distributions.
+
 # estimators 0.7.3
 
 * Removed dontrun from all examples.

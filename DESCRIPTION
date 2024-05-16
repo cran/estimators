@@ -1,6 +1,6 @@
 Package: estimators
 Title: Parameter Estimation
-Version: 0.7.3
+Version: 0.8.5
 Authors@R: c(
     person("Ioannis", "Oikonomidis", , "goikon@math.uoa.gr",
            role = c("aut", "cre"),
@@ -19,8 +19,8 @@ License: GPL (>= 3)
 URL: https://thechibo.github.io/estimators/
 BugReports: https://github.com/thechibo/estimators/issues
 Depends: R (>= 4.0.0)
-Imports: distr, ggh4x, ggplot2, grDevices, Matrix, methods, progress,
-        stats
+Imports: extraDistr, ggh4x, ggplot2, grDevices, Matrix, methods,
+        progress, stats, utils
 Suggests: covr, knitr, rmarkdown, testthat (>= 3.0.0)
 VignetteBuilder: knitr
 Config/testthat/edition: 3
@@ -28,10 +28,10 @@ Encoding: UTF-8
 Language: en-US
 RoxygenNote: 7.2.3
 NeedsCompilation: no
-Packaged: 2023-12-21 18:00:13 UTC; Chibo
+Packaged: 2024-05-08 13:59:18 UTC; Chibo
 Author: Ioannis Oikonomidis [aut, cre]
     (<https://orcid.org/0000-0001-8130-2104>),
   Samis Trevezas [aut, ths] (<https://orcid.org/0000-0003-2262-8299>)
 Maintainer: Ioannis Oikonomidis <goikon@math.uoa.gr>
 Repository: CRAN
-Date/Publication: 2024-01-08 10:30:05 UTC
+Date/Publication: 2024-05-16 15:00:10 UTC
